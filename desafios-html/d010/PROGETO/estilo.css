@@ -1,18 +1,10 @@
 @charset "UTF-8";
-div{
+header{
     color: blanchedalmond;  
     background-color: green;
-}
-h1.topo{
-    color: blanchedalmond;
     text-align: center; 
-    background-color: green;  
 }
-h4.topo{
-    color: blanchedalmond;
-    text-align: center;
-    background-color: green;
-}
+
 h2{
     color: rgb(2, 83, 2);
     background-color: rgba(6, 204, 6, 0.096);
@@ -20,6 +12,7 @@ h2{
 /*estilo do menu*/
 nav#menu{
     display:block ;
+    text-align: left;
 }
  div.topo nav#menu ul{
     list-style:none;
